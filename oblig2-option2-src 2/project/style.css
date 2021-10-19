@@ -1,0 +1,113 @@
+body{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    background-color: linear-gradient(35deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 70ch;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(assets/img/studentsbg.png), linear-gradient(35deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-size: 100%;
+    height: fit-content;
+    background-repeat: no-repeat, repeat;
+    background-size: contain, cover;
+}
+
+header{
+    height: 55vh;
+    height: min-content;
+    background-size: cover;
+    align-items: center;
+    width: 120ch;
+    margin-top: 300px;
+}
+
+header div{
+    width: 600px;
+    margin: 20px;
+    color: white;
+    background-color: #c5192d;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+
+
+#intro-container div{
+    background-color: #c5192d;
+    width: 50%;
+    float: left;
+   }
+
+#intro-container div ul{
+    background-color: white;
+    float: right;
+    margin-top: 0cm;
+    margin-bottom: 0%;
+}
+
+#intro-container div ul > li:nth-child(1) {
+    list-style: "\1F64C ";
+    list-style-position: outside;
+  }
+  #intro-container div ul > li:nth-child(2) {
+    list-style: "\1F3EB  ";
+    list-style-position: outside;
+  }
+  #intro-container div ul > li:nth-child(3) {
+    list-style: "\1F4DA  ";
+    list-style-position: outside;
+  }
+
+article div{
+    background-color: white;
+    width: 50%;
+    margin-top: 0cm;
+    float:right ;
+}
+
+article img{
+    width: 50%;
+    max-height: 250px;
+    float: right;
+}
+
+
+h1{
+    font-family: 'montserrat', sans-serif;
+    font-size: 4rem;
+    padding: 2%;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    padding: 2%;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    padding: 2%
+}
+
+p{
+    padding-left: 2%;
+}
+
+main{
+    box-shadow: 1px;
+    box-shadow: color darkgrey;
+    background-color: whitesmoke;
+   }
+
+   footer{
+    width: 100%;
+    background-color: #c5192d;
+    color: white;
+    text-align: center;
+    clear: both;
+    position: relative;
+    height: 100px;
+  }
